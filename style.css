@@ -1,0 +1,82 @@
+.outer-box{
+    width: 450px;
+    height: 450px;
+    border: 5px solid black;
+    position: relative;
+    background-color: aqua;
+}
+.inner-box{
+
+    width: 250px;
+    height: 250px;
+    border:5px dotted red;
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+    background-color: blueviolet;
+
+
+}
+
+.card{
+    width: 450px;
+    height: 450px;
+    border: 5px solid black;
+    position: relative;
+    background-color:chartreuse;
+    
+}
+.icon{
+    width: 250px;
+    height: 250px;
+    border:5px dotted red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: coral;
+
+}
+.tooltip{
+    position: relative;
+    top: 1px;
+
+}
+.button {
+    
+    position: absolute;
+
+}
+
+.avatar-container {
+
+    width: 450px;
+    height: 450px;
+    border: 5px solid black;
+    position: relative;
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+}
+
+.badge {
+    
+    width: 50px;
+    height: 50px;
+    border:5px dotted red;
+    position:absolute;
+    top: 0;
+    font-size: xx-large;
+
+
+}
+.image-container {
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    color:black;
+    font-size: xxx-large;
+}
